@@ -29,10 +29,10 @@ ladrillos = []
 dimensiones_ladrillo = [WIDTH / 12, HEIGHT / 12]
 
 y = 10
-for i in range(1):
+for i in range(3):
     x = 10
     ladrillos_fila = []
-    for j in range(1):
+    for j in range(10):
         ladrillos_fila.append(pygame.Rect(x, y, dimensiones_ladrillo[0], dimensiones_ladrillo[1]))
         x = x + dimensiones_ladrillo[0] + 10
     ladrillos.append(ladrillos_fila)
